@@ -38,14 +38,12 @@ body {
 .main__content__groups {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .main__content__groups__group {
     width: 270px;
     height: 195px;
-    margin-left: 30px;
-    margin-right: 30px;
     margin-top: 15px;
 }
 
@@ -77,6 +75,7 @@ body {
 .main__content__groups__group__teams-logo {
     width: 23px;
     height: 23px;
+    margin-right: 10px;
 }
 
 
